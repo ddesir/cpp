@@ -8,23 +8,6 @@
 //	Compile against C++11 and later
 //	--------------------------------------------------
 
-/*	Given:	int A [8] {1 ... 45}
-			int B [11] {1 ... 45}
-			Either read in random input via std::cin or random # generator
-			
-			Output should be an int array [size (A) + size (B)] (19) and consist
-			of the integers in the set A union B. The set requires that an int
-			may only appear once in the output array.
-			
-	Algorithm:
-	1. Read random numbers into A [8] and B [11]
-		- for loop to read rand into set A and one to read rand int set B
-	2. Add B to U
-	3. Compare elements in A to elements in U
-		- If A does not exist in U, add A to U
-	
- */
-
 #include <cstdlib>		// rand ()
 #include <iostream>		// std::cout
 using namespace std;
